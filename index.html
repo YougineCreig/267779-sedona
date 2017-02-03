@@ -1,12 +1,107 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
-</html>
+<head>
+  <meta charset="utf-8">
+  <title> Sedona </title>
+</head>
+<header class="main-header">
+  <div class="container">
+    <nav clas="main-navigation">
+      <ul>
+        <li> ИНФОРМАЦИЯ </li>
+        <li> ФОТО И ВИДЕО </li>
+        <img src="img/index-logo.png" width="40" heigh="40"
+         alt="лого»" href="#">
+         <!-- Все же я надеюсь я правильно розместил здесь лого -->
+        <li> КАРТА ШТАТА </li>
+        <li> ГОСТИНИЦЫ </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="container">
+  <div class="main-page">
+    <b> WELCOME </b>
+    <p class="font1"> to the gardens </p>
+    <h1> SEDONA </h1>
+    <p class="font1"> "Becouse the Grand Canyon is sucks!" </p>
+  </div>
+  <div class="second-page">
+    <h2> СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО! </h2>
+    <p> РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН! </p>
+    <div class=photo1>
+      <h2> НАСТОЯЩИЙ ГОРОДОК </h2>
+      <p> -№1- </p>
+      <p> СЕДОНА-НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ </p>
+      <img src="img/index-photo1.png" width="200" heigh="100"
+      alt="Настоящий городок" href="#">
+    </div>
+  <section class="icons">
+    <div class="logo-1">
+      <img src="img/index-logo-1.png" width="100" heigh="100" alt="жилье" href="#">
+      <h2>ЖИЛЬЕ</h2>
+      <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
+    </div>
+    <div class="logo-2">
+      <img src="img/index-logo-2.png" width="100" heigh="100" alt="ЕДА" href="#">
+      <h2>ЕДА</h2>
+      <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР. ВЫНЕ РОЗОЧАРУЕТЕСЬ!</p>
+    </div>
+    <div class="logo-3">
+      <img src="img/index-logo-3.png" width="100" heigh="100"
+      alt="жилье" href="#">
+      <h2>СУВЕНИРЫ</h2>
+      <p>НЕ ТОЛЬКО КИТАЙСЬКОГО НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+    </section>
+    <div class="PHOTO1">
+      <h2> ТАМ ЕСТЬ МОСТ ДЬЯВОЛА </h2>
+      <p> -№2- </p>
+      <p> ДА, ПО НЕМУ МОЖНА ПРОЙТИ! КОНЕЧНО ЕСЛИ ВЫ ОСМЕЛИТЕСЬ </p>
+      <img src="img/index-photo1.png" width="200" heigh="100"
+      alt="ТАМ ЕСТЬ МОСТ ДЬЯВОЛА" href="#">
+    </div>
+    <div class="discription">
+      <h2> НЕБОЛЬШАЯ ПЛОЩАДЬ </h2>
+      <p> -№3- </p>
+      <p> ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТЬСЯ ОЧЕНЬ БЛИЗКО </p>
+    </div>
+    <div class="discription">
+      <h2> КРАСИВАЯ ДОРОГА </h2>
+      <p> -№4- </p>
+      <p> ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО </p>
+    </div>
+    <div class="discription">
+      <h2> МАЛО ТУРИСТОВ </h2>
+      <p> -№5- </p>
+      <p> БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТЬСЯ ТАМ </p>
+    </div>
+  </div>
+  <div class="booking">
+    <h2> ЗАИНТЕРЕСОВАЛИСЬ </h2>
+    <p> УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, <br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ </p>
+      <form  action="https://echo.htmlacademy.ru" method="post"
+      enctype="multipart/form-data">
+      <p> ДАТА ЗАЕЗДА:
+      <input type="date" name="calendar"><br>
+      <p> ДАТА ВЫЕЗДА:
+      <input type="date" name="calendar"><br>
+      <p> ВЗРОСЛЫЕ: <input type="number" min="1" max="100" step="1">
+      <p> ДЕТИ: <input type="number" min="1" max="100" step="1">
+      <input type="submit" value="НАЙТИ">
+    </div>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="hashtad">
+          <h2> #VISITSEDONA </h2>
+        </section>
+        <section class="footer-social">
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p> website by </p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
