@@ -1,0 +1,84 @@
+body {
+  color: black;
+  font-family: "PT sans";
+  font-size: 14px;
+  background-size: 1122px auto;
+  width: 1280px;
+  outline: 1px solid red;
+}
+.main-header {
+  min-height: 55px;
+  background: white;
+  outline: 1px solid red;
+
+}
+.main-navigation{
+  margin: auto;
+}
+nav li {
+  float: right;
+  margin: 22px 75px 150px 25px;
+  color: black;
+} /*Ми з тобою шоворили про абсолютне позмціювання. Думаю настав час поговирити про це більш докладніше*/
+/*Плюс чому я не можу змінити колір посилань в меню?*/
+
+.main-baner {
+  width: auto;
+  margin: 0 auto;
+  outline: 1px solid red;
+  height: 510px;
+  width: 1200px;
+}
+.picture {
+  padding-top: 0;
+  padding-left: auto;
+  padding-right: auto;
+}
+.begin-description {
+outline: 1px solid red;
+padding-left: auto;
+padding-right: auto;
+}
+.begin-description h1 {
+
+}
+.discription {
+  outline: 1px solid red;
+}
+.picture-text {
+  outline: 1px solid red;
+}
+.pic {
+  float: left;
+  clear: right;
+  
+}
+
+
+.container {
+  width: 1200px;
+  padding: 0 10px;
+  min-height: 70px;
+  margin: 0 auto;
+
+}
+.main-navigation .day-of-entering {
+  font-weight: bold;
+}
+h1, h2 {
+  font-weight: bold;
+  font-size: 21px;
+}
+.question .big_text {
+  font-weight: bold;
+  font-size: 21px;
+}
+.text {
+  color: white;
+}
+.form_font {
+  font-size: 16px;
+}
+.sorting {
+  font-size: 12px;
+}
